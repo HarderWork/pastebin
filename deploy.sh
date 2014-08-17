@@ -83,7 +83,7 @@ if [[ "$IN_PLACE_DEPLOYMENT" -ne "1" ]]; then
 fi
 
 # 2. Rum CakePHP Migrations
-"$DEPLOYMENT_TARGET/app/Console/cake Migrations.migration run all"
+"$DEPLOYMENT_TARGET\app\Console\cake.bat Migrations.migration run all"
 
 ##################################################################################################################################
 # Dependency install
